@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clinical XR Software Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#">
+        <span class="brand-mark"></span>
+        <span>
+          <strong>Clinical XR</strong>
+          <small>Software Gallery Prototype</small>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a href="#gallery">Explore</a>
+        <a href="#education">Education</a>
+        <a href="#training">Training</a>
+        <a href="#about">About Prototype</a>
+        <a class="demo-button" href="#gallery">Launch Demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">Prototype WebGL Application Portal</div>
+        <h1>Interactive medical software, launched directly from the browser.</h1>
+        <p>
+          A clinical-style hosting gallery for Unity WebGL applications focused on medical education,
+          simulation, procedural training, anatomy, imaging, and immersive learning.
+        </p>
+
+        <div class="hero-actions">
+          <a class="primary-button" href="#gallery">Explore Applications</a>
+          <a class="secondary-button" href="#about">View Prototype Details</a>
+        </div>
+      </div>
+
+      <div class="hero-panel">
+        <div class="hero-screen">
+          <div class="screen-top">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="screen-content">
+            <div class="screen-sidebar">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+
+            <div class="screen-main">
+              <div class="scan-ring"></div>
+              <div class="scan-line"></div>
+              <div class="screen-card card-one"></div>
+              <div class="screen-card card-two"></div>
+              <div class="screen-card card-three"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-panel-card">
+          <strong>Browser-Based Simulation Access</strong>
+          <span>Click a software card to launch the linked Unity WebGL build.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-band">
+      <div>
+        <strong>WebGL</strong>
+        <span>Browser launch</span>
+      </div>
+      <div>
+        <strong>XR Ready</strong>
+        <span>Immersive training workflows</span>
+      </div>
+      <div>
+        <strong>Clinical</strong>
+        <span>Education-first interface</span>
+      </div>
+      <div>
+        <strong>Prototype</strong>
+        <span>Safe institutional demo concept</span>
+      </div>
+    </section>
+
+    <section class="controls-wrap">
+      <div class="controls">
+        <input id="searchInput" class="search" type="search" placeholder="Search echo, anatomy, simulation, procedure, XR..." />
+
+        <div class="filters" id="filters">
+          <button class="filter-button active" data-filter="all">All</button>
+          <button class="filter-button" data-filter="Imaging">Imaging</button>
+          <button class="filter-button" data-filter="Anatomy">Anatomy</button>
+          <button class="filter-button" data-filter="Simulation">Simulation</button>
+          <button class="filter-button" data-filter="Procedure">Procedure</button>
+          <button class="filter-button" data-filter="XR">XR</button>
+          <button class="filter-button" data-filter="Training">Training</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+      <div class="section-header">
+        <div>
+          <div class="section-kicker">Application Library</div>
+          <h2>Featured WebGL Applications</h2>
+        </div>
+        <div class="result-count" id="resultCount"></div>
+      </div>
+
+      <div class="grid" id="softwareGrid"></div>
+      <div class="empty-state" id="emptyState">No applications matched your search.</div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div>
+        <div class="section-kicker">Prototype Concept</div>
+        <h2>A centralized launch platform for clinical WebGL applications.</h2>
+      </div>
+      <p>
+        This prototype demonstrates how multiple Unity WebGL medical applications could be organized,
+        searched, previewed, and launched from a single professional software gallery.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Prototype concept for demonstration purposes only. Not an official institutional product, endorsement, or clinical system.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
