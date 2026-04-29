@@ -1,99 +1,99 @@
 const softwareItems = [
   {
-    title: "Echo Training Simulator",
-    category: "Imaging",
-    type: "Unity WebGL",
-    description: "Interactive echocardiography training environment for learning cardiac views, anatomy, and spatial orientation.",
-    link: "projects/echo-training-simulator/index.html",
-    tags: ["Imaging", "Training", "XR"]
-  },
-  {
-    title: "Cardiac Anatomy Explorer",
+    title: "Full Body Anatomy Viewer",
     category: "Anatomy",
-    type: "3D Education",
-    description: "A real-time 3D anatomy module for exploring cardiac chambers, valves, vessels, and structural relationships.",
-    link: "projects/cardiac-anatomy-explorer/index.html",
-    tags: ["Anatomy", "Training", "XR"]
+    type: "3D Viewer",
+    description: "Explore a full human model with selectable anatomy systems, labels, and clinical context.",
+    link: "projects/my-webgl-build/index.html",
+    tags: ["Anatomy", "Training"]
   },
   {
-    title: "Electrophysiology Mapping Demo",
-    category: "Simulation",
-    type: "EP Module",
-    description: "Visualizes cardiac activation, conduction pathways, propagation timing, and ECG relationships in 3D.",
-    link: "projects/electrophysiology-mapping-demo/index.html",
-    tags: ["Simulation", "Training"]
+    title: "Cardiovascular System",
+    category: "Anatomy",
+    type: "System View",
+    description: "Review cardiac and vascular anatomy with focused structure visibility and 3D navigation.",
+    link: "projects/my-webgl-build/index.html",
+    tags: ["Anatomy", "Physiology", "Training"]
+  },
+  {
+    title: "Echo Orientation Vignette",
+    category: "Imaging",
+    type: "Echo",
+    description: "A short interactive vignette for linking ultrasound views to 3D cardiac anatomy.",
+    link: "projects/my-webgl-build/index.html",
+    tags: ["Imaging", "Training"]
   },
   {
     title: "Procedure Planning Viewer",
     category: "Procedure",
     type: "Planning",
-    description: "Prototype viewer for reviewing patient-specific anatomy, device positioning concepts, and procedural workflows.",
-    link: "projects/procedure-planning-viewer/index.html",
-    tags: ["Procedure", "Simulation", "XR"]
+    description: "Review anatomy, device positioning concepts, and spatial relationships for procedural learning.",
+    link: "projects/my-webgl-build/index.html",
+    tags: ["Procedure", "Training"]
   },
   {
-    title: "TEE View Trainer",
-    category: "Imaging",
-    type: "TEE",
-    description: "Browser-based transesophageal echo view training with interactive probe movement and anatomical correlation.",
-    link: "projects/tee-view-trainer/index.html",
-    tags: ["Imaging", "Training"]
-  },
-  {
-    title: "TTE Probe Positioning Lab",
-    category: "Imaging",
-    type: "TTE",
-    description: "Training tool for transthoracic probe placement, view acquisition, and spatial understanding of cardiac windows.",
-    link: "projects/tte-probe-positioning-lab/index.html",
-    tags: ["Imaging", "Training"]
-  },
-  {
-    title: "Intracardiac Echo Orientation",
-    category: "Imaging",
-    type: "ICE",
-    description: "Interactive intracardiac echo orientation module for procedural education and internal cardiac navigation.",
-    link: "projects/intracardiac-echo-orientation/index.html",
-    tags: ["Imaging", "Procedure", "Training"]
-  },
-  {
-    title: "Hemodynamics Visualization Lab",
-    category: "Simulation",
-    type: "Physiology",
-    description: "Visualizes pressure, volume, flow, valve timing, and cardiac cycle mechanics in a synchronized 3D environment.",
-    link: "projects/hemodynamics-visualization-lab/index.html",
-    tags: ["Simulation", "Anatomy", "Training"]
-  },
-  {
-    title: "Surgical Anatomy Review",
+    title: "Respiratory System Review",
     category: "Anatomy",
-    type: "Review",
-    description: "A structured anatomy review experience for exploring clinically relevant landmarks and spatial relationships.",
-    link: "projects/surgical-anatomy-review/index.html",
-    tags: ["Anatomy", "Procedure", "Training"]
+    type: "System View",
+    description: "Explore airways, lungs, and related thoracic structures in a focused 3D vignette.",
+    link: "projects/my-webgl-build/index.html",
+    tags: ["Anatomy", "Physiology"]
   },
   {
-    title: "Immersive Skills Scenario",
-    category: "XR",
-    type: "Scenario",
-    description: "Prototype immersive learning scenario for step-based clinical skill rehearsal and guided software interaction.",
-    link: "projects/immersive-skills-scenario/index.html",
-    tags: ["XR", "Simulation", "Training"]
+    title: "Nervous System Review",
+    category: "Anatomy",
+    type: "System View",
+    description: "Inspect major nervous system structures with simple labels and clean spatial navigation.",
+    link: "projects/my-webgl-build/index.html",
+    tags: ["Anatomy", "Training"]
+  },
+  {
+    title: "Musculoskeletal System Review",
+    category: "Anatomy",
+    type: "System View",
+    description: "View bones and muscles with simplified layers for education and quick structural review.",
+    link: "projects/my-webgl-build/index.html",
+    tags: ["Anatomy", "Training"]
+  },
+  {
+    title: "Digestive System Review",
+    category: "Anatomy",
+    type: "System View",
+    description: "Navigate core digestive structures with a plain 3D viewer and clinically relevant labels.",
+    link: "projects/my-webgl-build/index.html",
+    tags: ["Anatomy", "Physiology"]
+  },
+  {
+    title: "Clinical Scenario Vignette",
+    category: "Scenario",
+    type: "Case",
+    description: "A short case-based medical scenario designed for fast clinical learning and discussion.",
+    link: "projects/my-webgl-build/index.html",
+    tags: ["Scenario", "Training"]
+  },
+  {
+    title: "Emergency Response Simulation",
+    category: "Scenario",
+    type: "Simulation",
+    description: "A guided vignette for practicing clinical decision-making in an emergency scenario.",
+    link: "projects/my-webgl-build/index.html",
+    tags: ["Scenario", "Training"]
+  },
+  {
+    title: "Hemodynamics Visualization",
+    category: "Physiology",
+    type: "Simulation",
+    description: "Visualize pressure, flow, valve timing, and cardiac cycle mechanics in a compact 3D scene.",
+    link: "projects/my-webgl-build/index.html",
+    tags: ["Physiology", "Training"]
   },
   {
     title: "Device Education Viewer",
     category: "Procedure",
-    type: "Device Training",
-    description: "Interactive device education module for understanding deployment concepts, anatomy, and procedural context.",
-    link: "projects/device-education-viewer/index.html",
-    tags: ["Procedure", "Training", "Simulation"]
-  },
-  {
-    title: "Emergency Response Simulation",
-    category: "Simulation",
-    type: "Scenario",
-    description: "A simulation-focused WebGL module for practicing clinical decision-making in guided emergency scenarios.",
-    link: "projects/emergency-response-simulation/index.html",
-    tags: ["Simulation", "Training", "XR"]
+    type: "Device",
+    description: "Understand device anatomy relationships and deployment concepts through a short interactive module.",
+    link: "projects/my-webgl-build/index.html",
+    tags: ["Procedure", "Training"]
   }
 ];
 
@@ -105,7 +105,7 @@ const emptyState = document.getElementById("emptyState");
 
 let activeFilter = "all";
 
-function createCard(item, index) {
+function createCard(item) {
   const tagText = item.tags.join(" / ");
 
   return `
@@ -119,7 +119,7 @@ function createCard(item, index) {
           <span class="badge">${item.category}</span>
           <span class="badge">${item.type}</span>
         </div>
-        <div class="play-pill">Launch WebGL</div>
+        <div class="play-pill">Open Vignette</div>
       </div>
 
       <div class="card-body">
@@ -164,9 +164,7 @@ function renderGrid() {
   });
 
   grid.innerHTML = filteredItems.map(createCard).join("");
-
-  resultCount.textContent = `${filteredItems.length} application${filteredItems.length === 1 ? "" : "s"}`;
-
+  resultCount.textContent = `${filteredItems.length} vignette${filteredItems.length === 1 ? "" : "s"}`;
   emptyState.style.display = filteredItems.length === 0 ? "block" : "none";
 }
 
